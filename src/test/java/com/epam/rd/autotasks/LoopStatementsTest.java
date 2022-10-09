@@ -1,6 +1,5 @@
 package com.epam.rd.autotasks;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -8,10 +7,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class LoopStatementsTest {
 
     @Test
-    public void test3SimpleCase() {
+    public void testSumOfFibonacciNumbersSimpleCase() {
 
-        assertEquals(33, LoopStatements.task3(8));
-        assertEquals(143, LoopStatements.task3(11));
+        assertEquals(33, LoopStatements.sumOfFibonacciNumbers(8));
+        assertEquals(143, LoopStatements.sumOfFibonacciNumbers(11));
 
        
     }

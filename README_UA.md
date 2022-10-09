@@ -6,7 +6,7 @@
 Будь ласка, перейдіть до класу [`LoopStatements`](src/main/java/com/epam/rd/autotasks/LoopStatements.java)
 і реалізувати його статичні методи:
 ---
-* `int task3(int n)`\
+* `int sumOfFibonacciNumbers(int n)`\
   Для натурального числа n обчисліть значення результату, яке дорівнює сумі перших n чисел Фібоначчі.
 
 * Примітка. Числа Фібоначчі — це ряд чисел, у яких кожне наступне число дорівнює сумі двох
@@ -23,8 +23,8 @@
 Code Sample:
 ```java
 ...
-        System.out.println(LoopStatements.task3(8));
-        System.out.println(LoopStatements.task3(11));
+        System.out.println(LoopStatements.sumOfFibonacciNumbers(8));
+        System.out.println(LoopStatements.sumOfFibonacciNumbers(11));
 ```
 
 Output:

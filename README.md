@@ -8,7 +8,7 @@ Estimated workload of this exercise is _30 min_.
 Please, proceed to [`LoopStatements`](src/main/java/com/epam/rd/autotasks/LoopStatements.java) class
 and implement its static methods:
 ---
-* `int task3(int n)`\
+* `int sumOfFibonacciNumbers(int n)`\
   For a positive integer n, calculate the result value, which is equal to the sum of the first n Fibonacci numbers.
   
 * Note: Fibonacci numbers are a series of numbers in which each next number is equal to the sum of the two
@@ -26,8 +26,8 @@ and implement its static methods:
 Code Sample:
 ```java
 ...
-System.out.println(LoopStatements.task3(8));
-System.out.println(LoopStatements.task3(11));
+System.out.println(LoopStatements.sumOfFibonacciNumbers(8));
+System.out.println(LoopStatements.sumOfFibonacciNumbers(11));
 ```
 
 Output:
